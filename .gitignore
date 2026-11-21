@@ -1,0 +1,44 @@
+# dependencies / environments
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+token.json
+
+# build output / caches
+dist/
+build/
+.next/
+.gradio/
+.ipynb_checkpoints/
+*.log
+
+# local data
+chroma*/
+*_vectorstore/
+*vectorsstore/
+*.sqlite3
+*.db
+
+# model weights / large artifacts
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.gguf
+*.onnx
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
