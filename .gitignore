@@ -30,7 +30,6 @@ chroma*/
 *.db
 
 # model weights / large artifacts
-*.pt
 *.pth
 *.bin
 *.safetensors
